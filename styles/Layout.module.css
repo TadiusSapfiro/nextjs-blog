@@ -1,0 +1,50 @@
+.container {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 60px;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+.header::before {
+  content: "";
+  display:block;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 150px;
+  background-color: sandybrown;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+  height: 100px;
+  background-color: #444;
+  color: #ccc;
+}
+
+.footer .mailLink{
+  color: inherit;
+}
