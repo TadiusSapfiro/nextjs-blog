@@ -17,9 +17,6 @@
   padding-top: 60px;
 }
 
-.backToHome {
-  margin: 3rem 0 0;
-}
 
 .header::before {
   content: "";

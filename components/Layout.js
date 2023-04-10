@@ -5,7 +5,7 @@ import utilStyles from '../styles/utils.module.css';
 import Link from 'next/link';
 
 const name = 'Volodymyr Zelentinov';
-export const siteTitle = 'Next.js Sample Website';
+export const siteTitle = 'Accessability blog';
 
 export default function Layout({ children, home }) {
   return (
@@ -14,7 +14,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="Blog about Accessability in Web"
         />
         <meta
           property="og:image"
@@ -60,11 +60,6 @@ export default function Layout({ children, home }) {
         )}
       </header>
       <main className={styles.main}>{children}</main>
-      {!home && (
-        <div className={styles.backToHome}>
-          <Link href="/">← Back to home</Link>
-        </div>
-      )}
       <footer className={styles.footer}>
         <a className={styles.mailLink} href="mailto:v.zelentinov@gmail.com">v.zelentinov@gmail.com</a>
         <span>
